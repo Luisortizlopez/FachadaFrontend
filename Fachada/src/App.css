@@ -1,0 +1,394 @@
+body {
+ font-family: Arial, sans-serif;
+ background: url("../public/sala-de-estar-borrosa_1203-32.jpg");
+ background-position: center 50%;
+ background-repeat: no-repeat;
+ background-size: 125% 150%;
+}
+
+html {
+  height: 100%;
+
+}
+
+
+#forms {
+ text-align: center;
+
+}
+
+.container-fluid h1 {
+ font-weight: bold;
+ font-size: 50px;
+ font-family: monospace;
+ color: #B22222;
+
+}
+
+
+.name {
+ font-weight: bold;
+ font-size: 50px;
+ font-family: monospace;
+ text-align: left;
+ color: #B22222;
+ margin-left: 50px;
+ margin-right: 150px;
+ padding-right: 10px;
+ margin-top: 15px;
+ margin-bottom: 8px;
+}
+
+
+p {
+ font-size: 18px;
+ font-family: monospace;
+ text-align: right;
+ color: #B22222;
+
+
+}
+
+
+.p1 {
+ font-size: 18px;
+ font-family: monospace;
+ text-align: right;
+ color: #B22222;
+ margin-left: 325px;
+ padding-left: 300px;
+ margin-bottom: 0px;
+ margin-top: 40px;
+}
+
+h2 {
+ text-align: center;
+ font-weight: 700;
+ font-family: sans-serif;
+ font-size: 28px;
+}
+
+a[target="_blank"] {
+ color: #1E90FF;
+ text-decoration: none;
+ border-bottom: solid;
+ border-bottom-width: thin;
+}
+
+.container-fixed {
+
+font-family: 'Open Sans', sans-serif;
+color: #B22222;
+margin: 45px auto 47px auto;
+background: rgba(22,22,22, 0.4);
+max-width: 960px;
+max-height: 1200px;
+border-radius: 5px;
+padding: 25px 0px 100px 0px;
+
+}
+label{
+ text-align: left;
+}
+
+.sigupcontent {
+ font-family: 'Open Sans', sans-serif;
+ color: #B22222;
+ margin: 5px auto 20px auto;
+ background: rgba(22,22,22, 0.4);
+ width: 40%;
+ max-width: 960px;
+ border-radius: 5px;
+ padding-bottom: 0px;
+ padding-top: 3px;
+
+}
+
+
+
+
+#Email{
+
+ margin-left: 80px;
+ margin-bottom: 10px;
+ font-size: 24px;
+}
+
+#pass{
+ margin-left: 80px;
+ margin-top: 0px;
+ margin-bottom: 10px;
+ font-size: 24px;
+}
+
+
+
+input[type=text], input[type=password] {
+   width: 40%;
+   padding: 12px 5px;
+   margin: 0px 0px 20px 0px;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+}
+
+button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 7px 0px;
+   margin: 35px 15px;
+   border-radius: 8px;
+   cursor: pointer;
+   width: 28%;
+   align: center;
+   margin-bottom: 33px;
+
+}
+
+.button2 {
+margin-bottom: 70px;
+
+}
+
+
+button:hover {
+   opacity: 0.8;
+}
+
+
+
+
+
+.imgcontainer {
+   height: 90%;
+   text-align: center;
+   margin: 50px 0 50px 0;
+}
+
+.imgcontainer2 {
+ height: 90%;
+ text-align: center;
+ margin: 50px auto 35px 0;
+}
+
+img.logo {
+   width: 50%;
+   height: 110%;
+   border-radius: 50%;
+}
+
+
+img.avatarp {
+ width: 19%;
+ height: 310px;
+ border-radius: 10%;
+ margin-left: 70px;
+ border-style: inset;
+ border-width: 2px;
+ border-color: black;
+ border-radius: 20px;
+}
+
+
+
+.pageinfo{
+margin-bottom: 15px;
+
+}
+
+.card {
+ box-shadow: 5px 5px 25px 10px rgba(0, 0, 0, 0.5);
+ width: 82%;
+ height: 40%;
+ position: relative;
+ left: 70px;
+ top: 0px;
+ padding-top: 20px;
+ font-family: arial;
+}
+
+.userpic {
+ margin-left: 20px;
+ margin-top: 30px;
+}
+
+.userpic img {
+border-radius: 5px;
+border-width: 1.5px;
+border-style: solid;
+width:27%;
+height: 270px;
+}
+
+
+.username {
+ font-weight: bold;
+ font-size: 50px;
+ font-family: monospace;
+ text-align: left;
+ color: #B22222;
+ position: relative;
+ left: 43px;
+ top: -2px;
+ margin-bottom: 0;
+}
+
+
+
+ul.i {
+ font-size: 24px;
+ text-align: left;
+ color: black;
+ margin-top: 10px;
+ position: relative;
+ left: 43px;
+ top: -5px;
+ margin: 8px 0 0 0;
+}
+
+li{
+margin-bottom: 10px;
+}
+
+p.icon {
+ font-size: 70px;
+ position: relative;
+ left: -30px;
+ top: -190px;
+ margin: 10px 0 0 0;
+
+}
+
+.post {
+ border: none;
+ outline: 0;
+ display: inline-block;
+ padding: 8px;
+ color: white;
+ background-color: #000;
+ text-align: center;
+ cursor: pointer;
+ width: 35%;
+ font-size: 18px;
+ position: absolute;
+ left: 305px;
+ top: 250px;
+}
+
+a {
+ text-decoration: none;
+ font-size: 22px;
+ color: black;
+}
+
+button:hover, a:hover {
+ opacity: 0.7;
+}
+
+p.centered {
+ color: black;
+ margin-left: 0px;
+ margin-top: 0px;
+ position: absolute;
+   top: 186px;
+   left: 130px;
+   font-size: 26px;
+
+}
+.checked{
+ color: orange;
+}
+
+.help {
+ color: red;
+ border-style:solid;
+ border-width: 2px;
+ border-color: black;
+ width: 970px;
+ position: absolute;
+ top: 560px;
+ left: 78px;
+ background: rgba(255,255,255, 0.8);
+}
+.textarea {
+ position: relative;
+ top: 160px;
+ left: 620px;
+ border-style: solid;
+ border-width: 2px;
+ border-color: black;
+ width: 420px;
+ height: 250px;
+ background: rgba(255,255,255, 0.8);
+
+}
+#des {
+ text-align: left;
+ color: black;
+ padding-left: 0px;
+ margin-left: 10px;
+ margin-top: 10px;
+}
+
+.picofjob{
+position: relative;
+top: -94px;
+left: 71px;
+width: 545px;
+height: 250px;
+border-style: solid;
+border-width: 2px;
+border-color: black;
+
+}
+
+#box {
+ font-weight: bold;
+ font-size: 20px;
+ font-style:italic;
+ color: black;
+  -webkit-text-fill-color: white;
+ -webkit-text-stroke-width: 0.3px;
+ -webkit-text-stroke-color: black;
+ margin-top: 20px;
+}
+
+#termsbox {
+ font-weight: bold;
+ font-size: 14px;
+ font-style:italic;
+ color: black;
+  -webkit-text-fill-color: white;
+ -webkit-text-stroke-width: 0.3px;
+ -webkit-text-stroke-color: black;
+ margin-top: 16px;
+ margin-bottom: 16px;
+}
+
+span.passwords {
+   float: right;
+   margin-top: 50px;
+   padding-bottom: 5px;
+   margin-left: 120px;
+   margin-right: 15px;
+   font-size: 20px;
+   color: black;
+    -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 0.3px;
+   -webkit-text-stroke-color: black;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+   span.passwords {
+      display: block;
+      float: none;
+   }
+ }
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
