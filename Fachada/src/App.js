@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import 'custom-bootstrap'
+import 'custom-bootstrap';
 import logo from './logo.svg';
 import './App.css';
 
